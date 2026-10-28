@@ -1,0 +1,86 @@
+{
+  "schema": "codex-skills/v1",
+  "version": "2026-10-28.1",
+  "skills": [
+    {
+      "name": "gh-review-merge",
+      "files": [
+        {
+          "path": "skills/gh-review-merge/SKILL.md",
+          "sha256": "0e132d0ee219ac5b974b3280ff20251a6977d69fd4f2897b57071825d253f1d6",
+          "bytes": 12096
+        },
+        {
+          "path": "skills/gh-review-merge/agents/openai.yaml",
+          "sha256": "11709907352feb29638d5fbadac99b4bc2b56074f4afcdeda1db33f76530d95b",
+          "bytes": 567
+        },
+        {
+          "path": "skills/gh-review-merge/assets/icon.svg",
+          "sha256": "8936b24f674a1250d999e2c2b5901374fb4240426f32bd1ae340c352a90d617d",
+          "bytes": 1738
+        }
+      ]
+    },
+    {
+      "name": "gh-review-merge-sync",
+      "files": [
+        {
+          "path": "skills/gh-review-merge-sync/SKILL.md",
+          "sha256": "84d031826aa08945d79ff56985068dcb1de5c50f6e892dd6e807edcf9abc2c2e",
+          "bytes": 12035
+        },
+        {
+          "path": "skills/gh-review-merge-sync/agents/openai.yaml",
+          "sha256": "fdf44f7de64a74a7d0664963db9f489fa321938b77b95a95f2d6084b36aa048e",
+          "bytes": 567
+        },
+        {
+          "path": "skills/gh-review-merge-sync/assets/icon.svg",
+          "sha256": "72343cc4b66256ae7de8474c7cad14e711ad84a94c473732a44f96a56124c42d",
+          "bytes": 786
+        }
+      ]
+    },
+    {
+      "name": "gh-commit-submit-review",
+      "files": [
+        {
+          "path": "skills/gh-commit-submit-review/SKILL.md",
+          "sha256": "4d5a7470eb740f0eebe14ea9d99fbc47d5d387e5eb6e97bf3f8bfea756d0200f",
+          "bytes": 6446
+        },
+        {
+          "path": "skills/gh-commit-submit-review/agents/openai.yaml",
+          "sha256": "c7fe1d2170f4837e3f57a74058448834e29045d4c4035463bddb09ed9f627054",
+          "bytes": 447
+        },
+        {
+          "path": "skills/gh-commit-submit-review/assets/icon.svg",
+          "sha256": "d80a4c3e0fd2efa7af88433a53b25a92c78a644175c6669dd78fee50fb53acf6",
+          "bytes": 2094
+        }
+      ]
+    },
+    {
+      "name": "pull-main",
+      "files": [
+        {
+          "path": "skills/pull-main/SKILL.md",
+          "sha256": "16caa6cb2a063cea5f9d390cac1d9a41c54819cd2728bf4f23a151f242264a27",
+          "bytes": 2100
+        },
+        {
+          "path": "skills/pull-main/agents/openai.yaml",
+          "sha256": "7019786818e0277e35794552c1b7445f18f41fca602426f5a941064fa39239f5",
+          "bytes": 406
+        },
+        {
+          "path": "skills/pull-main/assets/icon.svg",
+          "sha256": "8936b24f674a1250d999e2c2b5901374fb4240426f32bd1ae340c352a90d617d",
+          "bytes": 1738
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+interface:
+  display_name: レビュー提出・マージ・後片付け
+  short_description: レビューの記録と提出からPRマージ、作業ブランチ削除、ローカルmain更新まで進める
+  default_prompt: $gh-review-merge-sync を使い、このチャットのレビューを記録・提出し、条件を確認してマージ、ブランチ削除、ローカルmain更新まで進めて。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

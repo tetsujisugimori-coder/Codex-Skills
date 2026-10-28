@@ -1,0 +1,13 @@
+interface:
+  display_name: レビュー記録・提出
+  short_description: チャットのレビューを対象PRへ記録し、正式なReviewとして提出する
+  default_prompt: $gh-commit-submit-review を使い、このチャットのレビューを対象PRへ記録・提出して。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

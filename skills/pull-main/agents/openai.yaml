@@ -1,0 +1,13 @@
+interface:
+  display_name: mainを安全に更新
+  short_description: ローカルのmainブランチを確認して安全に最新状態へ更新する手順
+  default_prompt: Use $pull-main to safely update the local main branch in this repository.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
