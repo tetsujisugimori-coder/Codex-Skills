@@ -1,0 +1,4 @@
+interface:
+  display_name: "Root Cause Review"
+  short_description: "Reconsider implementation constraints and propose a root-cause solution"
+  default_prompt: "Use $root-cause-review to review the target PR or issue."

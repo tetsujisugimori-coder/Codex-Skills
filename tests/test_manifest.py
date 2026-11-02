@@ -9,7 +9,7 @@ class ManifestTest(unittest.TestCase):
     def test_complete_sources_match_manifest(self):
         data = json.loads((ROOT / 'manifest.json').read_text(encoding='utf-8'))
         self.assertEqual(data['schema'], 'codex-skills/v1')
-        expected = {'gh-review-merge', 'gh-review-merge-sync', 'gh-commit-submit-review', 'pull-main'}
+        expected = {'gh-review-merge', 'gh-review-merge-sync', 'gh-commit-submit-review', 'pull-main', 'failure-convergence-review', 'root-cause-review'}
         self.assertEqual({s['name'] for s in data['skills']}, expected)
         self.assertEqual(len(data['skills']), len(expected))
         seen = set()

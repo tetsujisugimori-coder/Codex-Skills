@@ -1,6 +1,6 @@
 {
   "schema": "codex-skills/v1",
-  "version": "2026-10-28.1",
+  "version": "2026-11-03.1",
   "skills": [
     {
       "name": "gh-review-merge",
@@ -79,6 +79,46 @@
           "path": "skills/pull-main/assets/icon.svg",
           "sha256": "8936b24f674a1250d999e2c2b5901374fb4240426f32bd1ae340c352a90d617d",
           "bytes": 1738
+        }
+      ]
+    },
+    {
+      "name": "failure-convergence-review",
+      "files": [
+        {
+          "path": "skills/failure-convergence-review/SKILL.md",
+          "sha256": "7ebbcee1bd800a630d9801ded2e1a5ba0686a4d3187afe0ded9581111a0dc06f",
+          "bytes": 2312
+        },
+        {
+          "path": "skills/failure-convergence-review/agents/openai.yaml",
+          "sha256": "9468b09bd008ca13f66be9846d32b9fc6a005fe6172d2cbca70a9faf743a2799",
+          "bytes": 225
+        },
+        {
+          "path": "skills/failure-convergence-review/assets/icon.svg",
+          "sha256": "d93032ee173bbd539318d9929d55b2785de348277da808701f41140f58ee2098",
+          "bytes": 243
+        }
+      ]
+    },
+    {
+      "name": "root-cause-review",
+      "files": [
+        {
+          "path": "skills/root-cause-review/SKILL.md",
+          "sha256": "063af98048a57ab1fddbd1f967790fd0636bf7ad9123d5e46ea5a3e196c556a2",
+          "bytes": 1945
+        },
+        {
+          "path": "skills/root-cause-review/agents/openai.yaml",
+          "sha256": "30c545da824f4364e121a08ab80717d4305284ba530fd6d9a8080abad41cde26",
+          "bytes": 219
+        },
+        {
+          "path": "skills/root-cause-review/assets/icon.svg",
+          "sha256": "d93032ee173bbd539318d9929d55b2785de348277da808701f41140f58ee2098",
+          "bytes": 243
         }
       ]
     }
