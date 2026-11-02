@@ -1,0 +1,4 @@
+interface:
+  display_name: "Failure Convergence Review"
+  short_description: "Find failure conditions and reach a bounded review decision"
+  default_prompt: "Use $failure-convergence-review to review the target PR or issue."
